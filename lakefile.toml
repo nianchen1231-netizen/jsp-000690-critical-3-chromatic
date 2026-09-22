@@ -1,0 +1,17 @@
+name = "jsp690"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["JspLean690"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.34.0"
+
+[[lean_lib]]
+name = "JspLean690"
